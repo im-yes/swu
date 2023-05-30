@@ -1,0 +1,44 @@
+header{
+    background-image: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url(images/main-bg.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+body{
+    font-family: 'SUIT', sans-serif;
+}
+
+/* h1, h2, h3, h4{
+    font-family: 'Gugi', cursive;
+} */
+
+h1, h2, h3, h4, button, .gmarket-font {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 네비게이션 영역 */
+.nav-link:hover,
+.nav-link.active {
+    color: #ffc107 !important;
+}
+
+#SNS{
+    background-image: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url(images/sns-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.card-hover:hover{
+    background-color: rgba(255, 223, 108, 0.2);
+}
+
+#news{
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url(images/news-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
