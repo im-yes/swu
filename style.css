@@ -1,0 +1,135 @@
+/* 네비게이션 영역 */
+.nav-link:hover,
+.nav-link.active {
+    color: #76DEFF !important;
+}
+nav{
+    background: #181f28e1;
+    backdrop-filter: blur(5px);
+}
+
+/* 호버 */
+.hover-img-bright {
+    filter: brightness(1.0);
+}
+
+.hover-img-bright:hover img{
+    filter: brightness(1.4);
+}
+
+.hover-bg-primary:hover {
+    background-color: #76DEFF;
+}
+
+.hover-bg-secondary:hover {
+    background-color: #F80130;
+}
+
+.hover-bg-sub:hover {
+    background-color: #77E03B;
+}
+
+.hover-hideTitle h2{
+    color: rgba(255, 255, 255, 1.0)
+}
+
+.hover-hideTitle:hover h2{
+    color: rgba(255, 255, 255, 0)
+}
+
+/* 베지 */
+.vege #vege-expand{
+    display: none;
+}
+
+.vege:hover #vege-expand{
+    display: block;
+}
+
+.vege-primary:hover {
+    background-color: #BAEFFF;
+}
+
+.vege-secondary:hover {
+    background-color: #FB8097;
+}
+
+.vege-sub:hover {
+    background-color: #BBEF9D;
+}
+
+.vege-ivory:hover {
+    background-color: #FEFEF7;
+}
+
+/* 폰트 */
+body {
+    font-family: 'SUIT-Regular', sans-serif;
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+
+    /* 기본 백그라운드 설정 */
+    background-color: #181F28;
+    
+}
+
+h1, h2, h3, h4, button, .font-oa {
+    font-family: 'OAGothic-ExtraBold', monospace;
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/OAGothic-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* 글자 색상 */
+.text-color-primary{
+    color: #76DEFF;
+}
+
+.text-color-secondary{
+    color: #F80130;
+}
+
+.text-color-sub{
+    color: #77E03B;
+}
+
+.text-color-ivory {
+    color: #FDFDEF;
+}
+
+.text-color-base {
+    color: #181F28;
+}
+
+
+
+/* 배경 색상 */
+.bg-color-primary{
+    background-color: #76DEFF;
+}
+
+.bg-color-secondary{
+    background-color: #F80130;
+}
+
+.bg-color-sub{
+    background-color: #77E03B;
+}
+
+.bg-color-ivory {
+    background-color: #FDFDEF;
+}
+
+.bg-color-base {
+    background-color: #181F28;
+}
+
+.bg-color-base50{
+    background-color: #30353E;
+}
+
+.bg-color-base100{
+    background: #181F28;
+}
